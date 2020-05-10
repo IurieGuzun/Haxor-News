@@ -14,6 +14,7 @@
 		8A878B102467B139004AFB82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A878B0F2467B139004AFB82 /* Preview Assets.xcassets */; };
 		8A878B132467B139004AFB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A878B112467B139004AFB82 /* LaunchScreen.storyboard */; };
 		8A878B1C2467B76B004AFB82 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A878B1B2467B76B004AFB82 /* NetworkManager.swift */; };
+		8A878B1E2467BE0E004AFB82 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A878B1D2467BE0E004AFB82 /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8A878B122467B139004AFB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A878B142467B139004AFB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A878B1B2467B76B004AFB82 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8A878B1D2467BE0E004AFB82 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				8A878B1B2467B76B004AFB82 /* NetworkManager.swift */,
+				8A878B1D2467BE0E004AFB82 /* PostData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A878B1E2467BE0E004AFB82 /* PostData.swift in Sources */,
 				8A878B1C2467B76B004AFB82 /* NetworkManager.swift in Sources */,
 				8A878B072467B138004AFB82 /* AppDelegate.swift in Sources */,
 				8A878B092467B138004AFB82 /* SceneDelegate.swift in Sources */,
