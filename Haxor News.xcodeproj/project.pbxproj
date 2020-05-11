@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A670C1C246997C000324E92 /* Haxor News.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Haxor News.entitlements"; sourceTree = "<group>"; };
 		8A878B032467B138004AFB82 /* Haxor News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haxor News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A878B062467B138004AFB82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A878B082467B138004AFB82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		8A878B052467B138004AFB82 /* Haxor News */ = {
 			isa = PBXGroup;
 			children = (
+				8A670C1C246997C000324E92 /* Haxor News.entitlements */,
 				8A878B062467B138004AFB82 /* AppDelegate.swift */,
 				8A878B082467B138004AFB82 /* SceneDelegate.swift */,
 				8A878B1F2467C75F004AFB82 /* Views */,
@@ -316,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Haxor News/Haxor News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Haxor News/Preview Content\"";
 				DEVELOPMENT_TEAM = JKMGXM83KA;
@@ -327,6 +330,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IurieGuzun.Haxor-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Haxor News/Haxor News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Haxor News/Preview Content\"";
 				DEVELOPMENT_TEAM = JKMGXM83KA;
@@ -347,6 +352,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IurieGuzun.Haxor-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
